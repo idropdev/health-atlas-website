@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     <div className="col-span-1 md:col-span-1">
                         <Link to="/" className="flex items-center mb-4">
-                            <img src="/logo-full.png" alt="HealthAtlas" className="h-20 w-auto" />
+                            <img src="/logo-full.png" alt="HealthAtlas" className="h-24 md:h-36 w-auto -my-6 md:-my-12" />
                         </Link>
                         <p className="text-gray-500 text-sm leading-relaxed mb-6">
                             The secure, patient-owned health history platform that clinics trust. HIPAA Compliant.
@@ -24,8 +24,7 @@ const Footer = () => {
                     <div>
                         <h4 className="font-semibold text-gray-900 mb-4">Product</h4>
                         <ul className="space-y-3 text-sm text-gray-500">
-                            <li><Link to="/clinics" className="hover:text-primary transition-colors">For Clinics</Link></li>
-                            <li><Link to="/patients" className="hover:text-primary transition-colors">For Patients</Link></li>
+                            <li><Link to="/product" className="hover:text-primary transition-colors">Product Overview</Link></li>
                             <li><Link to="/how-it-works" className="hover:text-primary transition-colors">How It Works</Link></li>
                             <li><Link to="/security" className="hover:text-primary transition-colors">Security</Link></li>
                         </ul>

@@ -18,8 +18,7 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'How It Works', path: '/how-it-works' },
-        { name: 'For Clinics', path: '/clinics' },
-        { name: 'For Patients', path: '/patients' },
+        { name: 'Product', path: '/product' },
         { name: 'Security', path: '/security' },
         { name: 'About', path: '/about' },
     ];
@@ -31,7 +30,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center">
                     <Link to="/" className="flex items-center group">
-                        <img src="/logo-full.png" alt="HealthAtlas" className="h-24 w-auto" />
+                        <img src="/logo-full.png" alt="HealthAtlas" className="h-24 md:h-36 w-auto -my-6 md:-my-12" />
                     </Link>
 
                     {/* Desktop Nav */}

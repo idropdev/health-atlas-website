@@ -90,6 +90,39 @@ const Clinics = () => {
                     </div>
                 </Section>
 
+                {/* Implementation Section */}
+                <Section className="bg-white">
+                    <div className="max-w-3xl mx-auto text-center">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Simple Implementation</h2>
+                        <p className="text-lg text-gray-500 mb-10">
+                            Getting started is straightforward. Here's what to expect:
+                        </p>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                            <div className="bg-surface p-6 rounded-xl">
+                                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                                    <span className="text-primary font-bold">1</span>
+                                </div>
+                                <h3 className="font-bold text-gray-900 mb-2">Guided Onboarding</h3>
+                                <p className="text-gray-500 text-sm">Dedicated support during setup to configure your account and workflows.</p>
+                            </div>
+                            <div className="bg-surface p-6 rounded-xl">
+                                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                                    <span className="text-primary font-bold">2</span>
+                                </div>
+                                <h3 className="font-bold text-gray-900 mb-2">Flexible Integration</h3>
+                                <p className="text-gray-500 text-sm">Connect with your existing workflow tools without disrupting current operations.</p>
+                            </div>
+                            <div className="bg-surface p-6 rounded-xl">
+                                <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                                    <span className="text-primary font-bold">3</span>
+                                </div>
+                                <h3 className="font-bold text-gray-900 mb-2">Go-Live Support</h3>
+                                <p className="text-gray-500 text-sm">Training and hands-on assistance for your team as you go live.</p>
+                            </div>
+                        </div>
+                    </div>
+                </Section>
+
                 <Section className="bg-primary text-white text-center">
                     <h2 className="text-3xl font-bold mb-6">Join the future of care.</h2>
                     <Button href="https://links.mylayerone.com/widget/bookings/dropdevdavid8r9zen" variant="white">Partner with us</Button>

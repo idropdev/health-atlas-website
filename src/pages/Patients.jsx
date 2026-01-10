@@ -17,7 +17,7 @@ const Patients = () => {
                     <p className="text-xl text-gray-500 mb-10 max-w-2xl mx-auto">
                         Secure, clear, and complete. Understand your past to protect your future.
                     </p>
-                    <Button href="https://links.mylayerone.com/widget/bookings/dropdevdavid8r9zen">Get Started</Button>
+                    <Button to="#patient-onboarding">Get Started</Button>
                 </div>
 
                 {/* Feature 1: Unified Timeline */}
