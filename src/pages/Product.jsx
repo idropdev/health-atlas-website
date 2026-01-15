@@ -105,18 +105,18 @@ const Product = () => {
                         </div>
 
                         {/* All 5 feature cards in unified grid */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                        <div className="flex flex-wrap justify-center gap-8 mb-16">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <Clock className="w-6 h-6 text-primary" />
                                 </div>
                                 <h3 className="text-lg font-bold text-gray-900 mb-3">Faster Intake Process</h3>
                                 <p className="text-gray-500 text-sm leading-relaxed">
-                                    Reduce patient intake time by up to 60% with pre-organized health histories that are ready to review.
+                                    Reduce patient intake time by up to 90% with pre-organized health histories that are ready to review.
                                 </p>
                             </Card>
 
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <FileText className="w-6 h-6 text-primary" />
                                 </div>
@@ -126,7 +126,7 @@ const Product = () => {
                                 </p>
                             </Card>
 
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <Users className="w-6 h-6 text-primary" />
                                 </div>
@@ -136,7 +136,7 @@ const Product = () => {
                                 </p>
                             </Card>
 
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <Building2 className="w-6 h-6 text-primary" />
                                 </div>
@@ -146,7 +146,7 @@ const Product = () => {
                                 </p>
                             </Card>
 
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <ShieldCheck className="w-6 h-6 text-primary" />
                                 </div>
@@ -258,8 +258,8 @@ const Product = () => {
                         </div>
 
                         {/* All 5 feature cards in unified grid */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                        <div className="flex flex-wrap justify-center gap-8 mb-16">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <Smartphone className="w-6 h-6 text-primary" />
                                 </div>
@@ -269,7 +269,7 @@ const Product = () => {
                                 </p>
                             </Card>
 
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <Lock className="w-6 h-6 text-primary" />
                                 </div>
@@ -279,7 +279,7 @@ const Product = () => {
                                 </p>
                             </Card>
 
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <MessageSquare className="w-6 h-6 text-primary" />
                                 </div>
@@ -289,7 +289,7 @@ const Product = () => {
                                 </p>
                             </Card>
 
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <Users className="w-6 h-6 text-primary" />
                                 </div>
@@ -299,7 +299,7 @@ const Product = () => {
                                 </p>
                             </Card>
 
-                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                            <Card className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)]">
                                 <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center mb-5">
                                     <Heart className="w-6 h-6 text-primary" />
                                 </div>

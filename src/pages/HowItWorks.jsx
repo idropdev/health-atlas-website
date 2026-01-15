@@ -17,7 +17,7 @@ const steps = [
         id: 2,
         label: "Step 02",
         title: "Data Cleaning & Structuring",
-        description: "HealthAtlas automatically cleans, organizes, and structures the data into a consistent, usable format. No manual data entry required.",
+        description: "HealthAtlas automatically cleans, organizes, and structures the data into a consistent, usable format.",
         icon: Sparkles,
     },
     {
@@ -45,10 +45,7 @@ const differentiators = [
         title: "Patient-Owned Data",
         description: "Patients control their health history and decide who can access it."
     },
-    {
-        title: "No Medical Advice",
-        description: "We structure and explain data — diagnosis and treatment remain with providers."
-    },
+
     {
         title: "Any Record Format",
         description: "PDFs, images, faxes, or EHR exports — we handle all formats."
@@ -58,7 +55,7 @@ const differentiators = [
         description: "Enterprise-grade security with full regulatory compliance."
     },
     {
-        title: "Human-Readable",
+        title: "Human-Understandable",
         description: "Clear explanations help patients understand their own health."
     }
 ];
@@ -113,9 +110,9 @@ const HowItWorks = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900">What makes HealthAtlas different</h2>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
                     {differentiators.map((item, index) => (
-                        <Card key={index} className="p-6 bg-white hover:shadow-lg transition-shadow duration-300">
+                        <Card key={index} className="p-6 bg-white hover:shadow-lg transition-shadow duration-300 w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]">
                             <h3 className="text-lg font-bold text-gray-900 mb-3">{item.title}</h3>
                             <p className="text-gray-500 text-sm leading-relaxed">{item.description}</p>
                         </Card>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Activity, Twitter, Linkedin, Github } from 'lucide-react';
+import { Activity, Linkedin } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -15,9 +15,7 @@ const Footer = () => {
                             The secure, patient-owned health history platform that clinics trust. HIPAA Compliant.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Twitter className="h-5 w-5" /></a>
-                            <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Linkedin className="h-5 w-5" /></a>
-                            <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Github className="h-5 w-5" /></a>
+                            <a href="https://www.linkedin.com/company/healthatlas/about/?viewAsMember=true" className="text-gray-400 hover:text-primary transition-colors"><Linkedin className="h-5 w-5" /></a>
                         </div>
                     </div>
 
@@ -35,8 +33,6 @@ const Footer = () => {
                         <ul className="space-y-3 text-sm text-gray-500">
                             <li><Link to="/about" className="hover:text-primary transition-colors">About Us</Link></li>
                             <li><Link to="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
-                            <li><Link to="/careers" className="hover:text-primary transition-colors">Careers</Link></li>
-                            <li><Link to="/press" className="hover:text-primary transition-colors">Press</Link></li>
                         </ul>
                     </div>
 
@@ -52,7 +48,7 @@ const Footer = () => {
 
                 <div className="pt-8 border-t border-gray-100 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
                     <p className="text-gray-400 text-sm">
-                        © {new Date().getFullYear()} HealthAtlas Inc. All rights reserved.
+                        © {new Date().getFullYear()} HealthAtlas. All rights reserved.
                     </p>
                     <div className="mt-4 md:mt-0 flex items-center space-x-2 text-xs text-gray-400 bg-gray-50 px-3 py-1 rounded-full">
                         <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>

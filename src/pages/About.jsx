@@ -93,33 +93,6 @@ const About = () => {
                 </div>
             </Section>
 
-            {/* What HealthAtlas Is Not */}
-            <Section className="bg-white py-20">
-                <div className="max-w-4xl mx-auto">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">What HealthAtlas Is Not</h2>
-
-                    <div className="space-y-6">
-                        <div className="bg-[#f8fafc] rounded-xl p-6">
-                            <p className="text-gray-700">
-                                <strong className="text-gray-900">We are not an EHR.</strong> We don't replace your existing electronic health record system. Instead, we complement it by organizing external records and patient-provided information.
-                            </p>
-                        </div>
-
-                        <div className="bg-[#f8fafc] rounded-xl p-6">
-                            <p className="text-gray-700">
-                                <strong className="text-gray-900">We do not provide medical advice.</strong> HealthAtlas explains medical information in plain language, but diagnosis and treatment decisions belong to qualified healthcare professionals.
-                            </p>
-                        </div>
-
-                        <div className="bg-[#f8fafc] rounded-xl p-6">
-                            <p className="text-gray-700">
-                                <strong className="text-gray-900">We are not a patient portal.</strong> While patients can access and understand their data through HealthAtlas, we focus on data aggregation and organization — not clinical communication or appointment scheduling.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </Section>
-
             {/* Blue CTA Banner */}
             <section className="bg-primary py-20">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
