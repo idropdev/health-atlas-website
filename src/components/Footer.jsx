@@ -41,7 +41,7 @@ const Footer = () => {
                         <ul className="space-y-3 text-sm text-gray-500">
                             <li><Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
                             <li><Link to="/terms" className="hover:text-primary transition-colors">Terms of Service</Link></li>
-                            <li><Link to="/baa" className="hover:text-primary transition-colors">BAA</Link></li>
+                            <li><Link to="https://links.mylayerone.com/widget/form/P8BY8IsFSKaGPwYBYKMY" className="hover:text-primary transition-colors">BAA</Link></li>
                         </ul>
                     </div>
                 </div>

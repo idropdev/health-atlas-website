@@ -4,6 +4,8 @@ import Layout from '../components/Layout';
 import Section from '../components/Section';
 import Button from '../components/Button';
 import Card from '../components/Card';
+import LogoCarousel from '../components/LogoCarousel';
+import ImageCompareSlider from '../components/ImageCompareSlider';
 import { Shield, Clock, FileText, Users, Building2, Heart, Lock, UserCheck, HeartHandshake, CheckCircle2, ChevronRight } from 'lucide-react';
 
 const Home = () => {
@@ -39,6 +41,9 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Logo Carousel Section */}
+            <LogoCarousel />
 
             {/* Problem Section */}
             <Section className="bg-[#f8fafc] py-20">
@@ -80,6 +85,30 @@ const Home = () => {
                         </p>
                     </Card>
                 </div>
+            </Section>
+
+            {/* Before/After Comparison Section */}
+            <Section className="bg-white py-20">
+                <div className="text-center max-w-3xl mx-auto mb-12">
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-5">Same data. Completely different understanding.</h2>
+                    <p className="text-lg text-gray-500">
+                        See how HealthAtlas transforms confusing medical jargon into clear, actionable health insights.
+                    </p>
+                </div>
+
+                <div className="flex justify-center">
+                    <ImageCompareSlider
+                        beforeImage="/lab_results.jpg"
+                        afterImage="/labs-enhanced.png"
+                        beforeLabel="Medical Record"
+                        afterLabel="What it means"
+                        initialPosition={40}
+                    />
+                </div>
+
+                <p className="text-center text-sm text-gray-400 mt-6">
+                    Drag the slider to compare • Works on mobile too
+                </p>
             </Section>
 
             {/* Built for Everyone Section */}
