@@ -22,7 +22,15 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-gray-900">Office</h3>
-                                    <p className="text-gray-500">123 Health Way, Suite 400<br />San Francisco, CA 94105</p>
+                                    <p className="text-gray-500">801 Myrtle Ave, Suite 104<br />(entrance on N Virginia St)<br />El Paso, TX 79901</p>
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-gray-900">Hours</h3>
+                                    <p className="text-gray-500">
+                                        Monday: 5:30–7:30 PM<br />
+                                        Wednesday, Friday, Saturday: 9 AM–5 PM<br />
+                                        <span className="text-gray-400">Closed Tuesday, Thursday, and Sunday</span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
