@@ -4,6 +4,7 @@ import Section from '../components/Section';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import { Upload, Sparkles, FileText, ClipboardCheck, ChevronRight } from 'lucide-react';
+import AppShowcase from '../components/AppShowcase'; // TO REMOVE: Delete this line and <AppShowcase /> below
 
 const steps = [
     {
@@ -103,6 +104,9 @@ const HowItWorks = () => {
                     </div>
                 </div>
             </Section>
+
+            {/* App Screenshots Showcase - TO REMOVE: Delete this line */}
+            <AppShowcase />
 
             {/* What Makes HealthAtlas Different Section */}
             <Section className="bg-[#f8fafc] py-20">

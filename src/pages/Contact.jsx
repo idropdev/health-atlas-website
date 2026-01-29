@@ -35,39 +35,24 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="bg-white p-8 rounded-2xl shadow-soft border border-gray-100">
-                            <form className="space-y-6">
-                                <div>
-                                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
-                                    <input type="text" id="name" className="w-full px-4 py-2 rounded-lg border border-gray-200 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all" placeholder="Dr. Sarah Smith" />
-                                </div>
-
-                                <div>
-                                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Work Email</label>
-                                    <input type="email" id="email" className="w-full px-4 py-2 rounded-lg border border-gray-200 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all" placeholder="sarah@clinic.com" />
-                                </div>
-
-                                <div>
-                                    <label htmlFor="type" className="block text-sm font-medium text-gray-700 mb-1">I am a...</label>
-                                    <select id="type" className="w-full px-4 py-2 rounded-lg border border-gray-200 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all bg-white">
-                                        <option>Clinic Administrator</option>
-                                        <option>Provider / Physician</option>
-                                        <option>Patient</option>
-                                        <option>Other</option>
-                                    </select>
-                                </div>
-
-                                <div>
-                                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                                    <textarea id="message" rows={4} className="w-full px-4 py-2 rounded-lg border border-gray-200 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all" placeholder="Tell us about your needs..."></textarea>
-                                </div>
-
-                                <Button className="w-full justify-center">Send Request</Button>
-
-                                <p className="text-xs text-center text-gray-400 mt-4">
-                                    Your information is secure. We never sell your data.
-                                </p>
-                            </form>
+                        <div className="bg-white rounded-2xl shadow-soft border border-gray-100 overflow-hidden" style={{ minHeight: '844px' }}>
+                            <iframe
+                                src="https://links.mylayerone.com/widget/form/44rBofrhl1TYlf9r2zYS"
+                                style={{ width: '100%', height: '844px', border: 'none', borderRadius: '3px' }}
+                                id="inline-44rBofrhl1TYlf9r2zYS"
+                                data-layout="{'id':'INLINE'}"
+                                data-trigger-type="alwaysShow"
+                                data-trigger-value=""
+                                data-activation-type="alwaysActivated"
+                                data-activation-value=""
+                                data-deactivation-type="neverDeactivate"
+                                data-deactivation-value=""
+                                data-form-name="Contact us form"
+                                data-height="844"
+                                data-layout-iframe-id="inline-44rBofrhl1TYlf9r2zYS"
+                                data-form-id="44rBofrhl1TYlf9r2zYS"
+                                title="Contact us form"
+                            />
                         </div>
                     </div>
                 </div>
