@@ -16,10 +16,7 @@ const Home = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <div className="text-center max-w-4xl mx-auto">
                         {/* HIPAA Badge */}
-                        <div className="inline-flex items-center space-x-2 bg-white border border-primary/20 px-4 py-2 rounded-full mb-8 shadow-sm">
-                            <Shield className="w-4 h-4 text-primary" />
-                            <span className="text-sm font-medium text-primary">HIPAA-Compliant Platform</span>
-                        </div>
+
 
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 tracking-tight">
                             One complete health history — <span className="text-primary">secure, patient-owned, and clinic-ready</span>
