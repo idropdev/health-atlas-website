@@ -16,7 +16,7 @@ a Dart/Flutter project" with a sibling `health-atlas-website` repo. That does no
 what is actually in this checkout — there is no `pubspec.yaml`, no `lib/` directory, and
 no Flutter/Dart tooling anywhere. This repo, as it exists on disk, is a React/Vite/
 Tailwind web project (`package.json` name: `healthatlas`). Treat this document as
-describing the actual contents of `C:\Users\carlo\OneDrive\Documents\GitHub\HealthAtlas`,
+describing the actual contents of this repository directory (the folder containing this file),
 not the Flutter app referenced in the brief — flag this mismatch to the repo owner before
 assuming which codebase is the "real" HealthAtlas app.
 
